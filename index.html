@@ -13,18 +13,104 @@
       <div class="container">
         <!--  -->
         <div class="sidebar">
-          <h2>Dashboard</h2>
+          <h2>
+            <span
+              ><img
+                src="./icons/view-dashboard.svg"
+                alt="Dashboard"
+                class="dash"
+            /></span>
+            Dashboard
+          </h2>
           <ul>
-            <li class="top-margin"><a href="#">home</a></li>
-            <li><a href="#">profile</a></li>
-            <li><a href="#">messages</a></li>
-            <li><a href="#">history</a></li>
-            <li><a href="#">tasks</a></li>
-            <li><a href="#">communities</a></li>
+            <li class="top-margin">
+              <a href="#">
+                <span
+                  ><img src="./icons/home.svg" alt="home" class="icon" /></span
+                >home</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/card-account-details-outline.svg"
+                    alt="profile"
+                    class="icon" /></span
+                >profile</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/message-reply.svg"
+                    alt="messages"
+                    class="icon" /></span
+                >messages</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/clock-time-three.svg"
+                    alt="history"
+                    class="icon" /></span
+                >history</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/note-multiple.svg"
+                    alt="tasks"
+                    class="icon" /></span
+                >tasks</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/account-group.svg"
+                    alt="communities"
+                    class="icon" /></span
+                >communities</a
+              >
+            </li>
 
-            <li class="top-margin"><a href="#">settings</a></li>
-            <li><a href="#">support</a></li>
-            <li><a href="#">privacy</a></li>
+            <li class="top-margin">
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/cog.svg"
+                    alt="settings"
+                    class="icon" /></span
+                >settings</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/help-box.svg"
+                    alt="support"
+                    class="icon" /></span
+                >support</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  ><img
+                    src="./icons/shield-check.svg"
+                    alt="privacy"
+                    class="icon" /></span
+                >privacy</a
+              >
+            </li>
           </ul>
         </div>
         <!--  -->
@@ -32,29 +118,50 @@
         <!--  -->
         <div class="nav">
           <div class="row1">
-            <div class="bar1 p-10">
+            <div class="bar1">
               <div class="search-bar">
-                <button type="submit">magnifying-glass</button>
-                <input type="text" placeholder="Search" />
+                <button type="submit" class="search-btn">
+                  <img src="./icons/magnify.svg" alt="search-button" />
+                </button>
+                <input type="text" placeholder="search" />
               </div>
             </div>
-            <div class="bar2 p-10">
-              <button>noti</button>
-              <button>profile-img</button>
+            <div class="bar2">
+              <a href="#">
+                <img src="./icons/bell-ring.svg" alt="notifications" />
+              </a>
+
+              <a href="#">
+                <img
+                  class="profile-img"
+                  src="./icons/Frame1.png"
+                  alt="profile"
+                />
+              </a>
+
               <h2>rishaw raj</h2>
             </div>
           </div>
 
           <div class="row2">
             <div class="bar1">
-              <button>profile-img</button>
-              <h3>hi there</h3>
-              <h2>rishaw raj (@rishawraj)</h2>
+              <a href="#">
+                <img
+                  class="profile-img2"
+                  src="./icons/Frame2.png"
+                  alt="profile"
+                />
+              </a>
+
+              <div class="text">
+                <h3>Hi there,</h3>
+                <h2>Rishaw Raj (@rishawraj)</h2>
+              </div>
             </div>
             <div class="bar2">
-              <button>new</button>
-              <button>upload</button>
-              <button>share</button>
+              <button class="blue-btn">new</button>
+              <button class="blue-btn">upload</button>
+              <button class="blue-btn">share</button>
             </div>
           </div>
         </div>
@@ -63,7 +170,7 @@
         <!--  -->
         <div class="main">
           <div class="cards">
-            <h3 style="color: red">Your Projects</h3>
+            <h3>Your Projects</h3>
             <div class="cards-container">
               <div class="card">
                 <h3>Super cool projects</h3>
@@ -72,10 +179,19 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
+
               <div class="card">
                 <h3>Super cool projects</h3>
                 <p>
@@ -83,10 +199,19 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
+
               <div class="card">
                 <h3>Super cool projects</h3>
                 <p>
@@ -94,10 +219,19 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
+
               <div class="card">
                 <h3>Super cool projects</h3>
                 <p>
@@ -105,10 +239,19 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
+
               <div class="card">
                 <h3>Super cool projects</h3>
                 <p>
@@ -116,10 +259,19 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
+
               <div class="card">
                 <h3>Super cool projects</h3>
                 <p>
@@ -127,14 +279,22 @@
                   Aliquid dicta quidem, ducimus cumque laborum assumenda quos
                   numquam aut! Quas, quisquam?
                 </p>
-                <button>star-icon</button>
-                <button>view-icon</button>
-                <button>share-icon</button>
+                <div class="button-container">
+                  <button>
+                    <img src="./icons/star-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/eye-plus-outline.svg" alt="" />
+                  </button>
+                  <button>
+                    <img src="./icons/share-variant-outline.svg" alt="" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
           <div class="announcements">
-            <h3 style="color: red">Announcements</h3>
+            <h3>Announcements</h3>
 
             <div class="announcements-container">
               <div class="announcement border-bottom">
@@ -166,20 +326,20 @@
           </div>
           <!--  -->
           <div class="trending">
-            <h3 style="color: red">Trending</h3>
+            <h3>Trending</h3>
             <div class="trending-container">
               <div class="profile">
-                <button>icon</button>
+                <button><img src="./icons/Frame1.png" alt="" /></button>
                 <h3>@rishawraj</h3>
                 <p>Wordl Peach builder</p>
               </div>
               <div class="profile">
-                <button>icon</button>
+                <button><img src="./icons/Frame1.png" alt="" /></button>
                 <h3>@rishawraj</h3>
                 <p>Wordl Peach builder</p>
               </div>
               <div class="profile">
-                <button>icon</button>
+                <button><img src="./icons/Frame1.png" alt="" /></button>
                 <h3>@rishawraj</h3>
                 <p>Wordl Peach builder</p>
               </div>
